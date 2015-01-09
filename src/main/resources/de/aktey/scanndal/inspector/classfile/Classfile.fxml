@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane dividerPositions="0.32323232323232326" prefHeight="160.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.aktey.scanndal.inspector.classfile.ClassfileController">
+   <items>
+      <TextArea fx:id="fileContent" editable="false" prefHeight="200.0" prefWidth="200.0" wrapText="true" />
+      <Accordion fx:id="fileInterpretation" prefHeight="259.0" prefWidth="338.0" />
+   </items>
+</SplitPane>
